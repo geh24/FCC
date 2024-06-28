@@ -1,12 +1,5 @@
 ﻿namespace FCC
 {
-    internal class MulHelper2
-    {
-        public int multiply(int m1, int m2)
-        {
-            return m1 * m2;
-        }
-    }
     public class FCCMath
     {
         public int multiply(int m1, int m2)
@@ -24,6 +17,13 @@
             {
                 return m1 * m2;
             }
+        }
+    }
+    internal class MulHelper2
+    {
+        public int multiply(int m1, int m2)
+        {
+            return m1 * m2;
         }
     }
 }
